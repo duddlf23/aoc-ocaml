@@ -1,0 +1,4 @@
+(executables
+ (public_names aoc_ocaml day2)
+ (names main day2)
+ (libraries aoc_ocaml core batteries))
