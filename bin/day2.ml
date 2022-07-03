@@ -21,7 +21,6 @@ let print_result_part1 (d, h) =
 (* part 1 *)
 let _ = filename |> parse parse_line_part1 |> fold_instructions (0, 0) |> print_result_part1
 
-
 let parse_line_part2 line = 
   match (String.split_on_char ' ' line) with
   | ["forward"; diff] -> fun (d, h, a) -> (d + a * (int_of_string diff), h + (int_of_string diff), a)
