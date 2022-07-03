@@ -1,4 +1,0 @@
-(lang dune 3.3)
-(name aoc_ocaml)
-(sections (lib .) (bin ../../bin))
-(files (lib (META dune-package opam)) (bin (aoc_ocaml day2)))
